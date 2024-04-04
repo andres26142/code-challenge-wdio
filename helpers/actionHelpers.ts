@@ -22,7 +22,6 @@ export default class ActionHelper{
     static async swipe (from: XY, to: XY) {
         await driver.performActions([
             {
-                // a. Create the event
                 type: 'pointer',
                 id: 'finger1',
                 parameters: { pointerType: 'touch' },
