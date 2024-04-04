@@ -1,0 +1,7 @@
+{
+    "user": {
+      "username": "valid_user",
+      "valid_password": "12345678",
+      "invalid_password": "0000"
+    }
+  }
